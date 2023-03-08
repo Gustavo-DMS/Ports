@@ -1,5 +1,3 @@
-from turtle import left, right
-import numpy as np
 import pandas as pd
 
 colunas = ['S1','S2','S3','S4','S5','S6','S7','S8']
