@@ -27,8 +27,8 @@ def custoTotal(cronograma,custo):
 
 
 def main():
-    custoHora = abrirArquivo(r'C:\Users\ra00297155\Desktop\Port 2 m9\Port2m9\custohora.xlsx')
-    cronograma = abrirArquivo(r'C:\Users\ra00297155\Desktop\Port 2 m9\Port2m9\cronograma.xlsx')
+    custoHora = abrirArquivo(r'./Port2m9/custohora.xlsx')
+    cronograma = abrirArquivo(r'./Port2m9/cronograma.xlsx')
     print(somarColunas(cronograma))
     print(horasFuncionario(cronograma,'C'))
     print(horasTotais(cronograma))
