@@ -45,7 +45,7 @@ def grafico(df,groupby:list,sum):
     fds = groupbySum(df,groupby,sum)
     fig, ax = plt.subplots()
     ax.pie(fds[sum],labels=fds[groupby],autopct='%1.1f%%', pctdistance=0.75, textprops={'size': 'smaller'},radius=1.35)
-    plt.show()
+    return plt.show()
 
 
 def main():
